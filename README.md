@@ -33,7 +33,7 @@ npm i webpack-dev-server -D		// 本地服务器
 
 npm i eslint eslint-config-standard eslint-loader eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard -D 	// ESlint代码规范
 
-npm i babel-core babel-loader babel-preset-env babel-preset-stage-0 babel-preset-react -D // Babel相关
+npm i babel-core babel-loader babel-preset-env -D // Babel相关
 
 npm i uglifyjs-webpack-plugin	 // 代码压缩插件
 
@@ -42,7 +42,6 @@ npm i source-map-loader 	// 源码映射
 npm i autoprefixer postcss-loader -D	// css预处理 自动补全css前缀 解决浏览器兼容
 
 npm i copy-webpack-plugin -D	// 拷贝静态文件，但是和清理插件有冲突
-
 ```
 
 
@@ -50,7 +49,7 @@ npm i copy-webpack-plugin -D	// 拷贝静态文件，但是和清理插件有冲
 #### 使用方法:  (先下载或者clone)
 
 ```
-npm install			# 安装依赖模块
+npm install		# 安装依赖模块
 ```
 
 ```
