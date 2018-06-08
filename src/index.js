@@ -1,14 +1,8 @@
 // index.js
 
-// 引入css文件
-import './main.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log('I am index.js')
+import App from './views/app'
 
-// 测试css
-const obj1 = document.createElement('h1')
-
-obj1.id = 'css'
-obj1.innerHTML = '测试css'
-
-document.body.appendChild(obj1)
+ReactDOM.render(<App />, document.getElementById('app'))
